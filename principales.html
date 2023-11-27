@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/797299418b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+    <title>LOST</title>
+    <link rel="shortcut icon" href="images/icono.ico">
+</head>
+<body>
+    <header>
+        <div>
+            <a href="index.html"><img src="images/logo.jpg" alt="logo"></a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+        <nav id="menu_bar" class="">
+            <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#">Personajes</a>
+                    <ul class="submenu">
+                        <li><a href="principales.html">Principales</a></li>
+                        <li><a href="secundarios.html">Secundarios</a></li>
+                    </ul>
+                </li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="resenas.html">Reseñas</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h1>Personajes Principales de la Isla</h1>  
+    <nav class="test">   
+        
+
+        <article class="personajes">
+            <div class="contenedor">
+                <a href="images/jack.jpg" data-lightbox="image1" data-title="Jack Shephard"><img src="images/jack.jpg" width="150px"></a>
+            </div>
+            <div>
+                <h2>Jack Shephard: Interpretado por Matthew Fox</h2>
+                <p>Jack, un cirujano de columna, está tratando de traer de vuelta el cuerpo de su padre recientemente perdido a su país. Tiene un complejo para salvar a la gente. Las decisiones tomadas por Jack, que es un hombre de ciencia, en los primeros días lo convierten de repente en el líder del grupo.</p>     
+            </div> 
+
+
+        </article> 
+        <article class="personajes">
+            <div class="contenedor">
+                <a href="images/kate.jpg" data-lightbox="image1" data-title="Kate Austen"><img src="images/kate.jpg" width="150px"></a>
+            </div>
+            <div>
+                <h2>Kate Austen: Interpretada por Evangeline Lilly</h2>
+                <p>Kate, que ha estado huyendo durante mucho tiempo, ya no puede escapar de la policía y es atrapada. El accidente del avión es un nuevo comienzo para ella. Con el efecto de esto, ayuda a las personas con Jack en la agitación temprana y se gana el respeto de la gente.</p>     
+            </div> 
+
+
+        </article>
+        <article class="personajes">
+            <div class="contenedor">
+                <a href="images/sawyer.jpg" data-lightbox="image1" data-title="James 'Sawyer' Ford"><img src="images/sawyer.jpg" width="150px"></a>
+            </div>
+            <div>
+                <h2>James 'Sawyer' Ford: Interpretado por Josh Holloway</h2>
+                <p>Con su personalidad rebelde, no tarda mucho en recibir una reacción violenta en la isla. Vivir una vida comunitaria no es para él. Sobre todo para vivir bajo las decisiones de un líder. Llega a la carretera a tiempo en las duras condiciones de vida de la isla. Por mucho que alguien como él pueda venir...</p>     
+            </div> 
+
+
+        </article>
+        <article class="personajes">
+            <div class="contenedor">
+                <a href="images/john.jpg" data-lightbox="image1" data-title="John Locke"><img src="images/john.jpg" width="150px"></a>
+            </div>
+            <div>
+                <h2>John Locke: Es interpretado por Terry O'Quinn</h2>
+                <p>Locke, que interpreta a un misterioso personaje, es el hombre de fe de la serie.  Cree que ese es su destino, que vinieron aquí con un propósito. El hecho de que sea un buen cazador y que la comida sea un gran problema en la isla también pone a Locke en una posición importante.  </p>     
+            </div> 
+        </article>
+    </nav>     
+    </section>
+
+
+    <footer>
+        <a href="https://twitter.com/lostofficial?lang=es" 
+            target="_blank"><i 
+            class="fa-brands fa-twitter" 
+            style="color: #FFFFFF;"></i></a> 
+
+        <a href="https://youtu.be/jnLIIKsSg3w" 
+            target="_blank"><i 
+            class="fa-brands fa-youtube" 
+            style="color: #FFFFFF;"></i></a>
+
+        <a href="https://www.facebook.com/LOST?mibextid=ZbWKwL"     target="_blank"><i 
+             class="fa-brands fa-facebook" 
+             style="color: #FFFFFF;"></i></a>
+
+        <a href="https://instagram.com/lost_series?igshid=NGVhN2U2NjQ0Yg==" 
+            target="_blank"><i 
+            class="fa-brands fa-instagram" 
+            style="color: #FFFFFF;"></i></a>
+    </footer>
+
+
+    <script type="text/javascript">
+        function myFunction() {
+          var x = document.getElementById("menu_bar");
+          if (x.className === "") {
+            x.className += " responsive";
+          } else {
+            x.className = "";
+          }
+        }
+    </script>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+</body>
+</html>

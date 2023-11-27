@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/797299418b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+    <title>LOST</title>
+    <link rel="shortcut icon" href="images/icono.ico">
+</head>
+<body>
+    <header>
+        <div>
+            <a href="index.html"><img src="images/logo.jpg" alt="logo"></a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+        <nav id="menu_bar" class="">
+            <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#">Personajes</a>
+                    <ul class="submenu">
+                        <li><a href="principales.html">Principales</a></li>
+                        <li><a href="secundarios.html">Secundarios</a></li>
+                    </ul>
+                </li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="resenas.html">Reseñas</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h1>Serie LOST (Perdidos)</h1>
+        <article class="principal">
+            <div>
+                <h2>¿Podran los Sobrevivientes del vuelo 815 escapar de la misteriosa isla?</h2>
+            </div>
+            </article>
+            
+        <article class="secundario">
+            <div>
+                <a href="images/escena1.jpg" 
+                data-lightbox="singleimage" 
+                data-title="Corazones y mentes">  
+                    <img src="images/escena1.jpg">
+                    <h4>Corazones y mentes - Temporada 1, 
+                    Ep 13</h4>
+                </a>
+            </div>
+            <div>
+                <a href="images/escena2.jpg" 
+                data-lightbox="singleimage2" 
+                data-title="A traves del espejo">
+                    <img src="images/escena2.jpg">
+                    <h4>A traves del espejo: Temporada 3,
+                     Ep 23</h4>
+                </a>
+            </div>
+            <div>
+                <a href="images/escena3.jpg" 
+                data-lightbox="singleimage3" 
+                data-title="La muerte esta aqui">  
+                    <img src="images/escena3.jpg">
+                    <h4>La muerte esta aqui: Temporada 5, 
+                    Ep 5</h4>
+            </div>        
+        </article>
+    </section>
+    
+
+    <footer>
+        <a href="https://twitter.com/lostofficial?lang=es" 
+            target="_blank"><i 
+            class="fa-brands fa-twitter" 
+            style="color: #FFFFFF;"></i></a> 
+
+        <a href="https://youtu.be/jnLIIKsSg3w" 
+            target="_blank"><i 
+            class="fa-brands fa-youtube" 
+            style="color: #FFFFFF;"></i></a>
+
+        <a href="https://www.facebook.com/LOST?mibextid=ZbWKwL"     target="_blank"><i 
+             class="fa-brands fa-facebook" 
+             style="color: #FFFFFF;"></i></a>
+
+        <a href="https://instagram.com/lost_series?igshid=NGVhN2U2NjQ0Yg==" 
+            target="_blank"><i 
+            class="fa-brands fa-instagram" 
+            style="color: #FFFFFF;"></i></a>
+    </footer>
+    
+
+    <script type="text/javascript">
+        function myFunction() {
+          var x = document.getElementById("menu_bar");
+          if (x.className === "") {
+            x.className += " responsive";
+          } else {
+            x.className = "";
+          }
+        }
+    </script>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+</body>
+</html>

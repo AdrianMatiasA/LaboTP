@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/797299418b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+    <title>LOST</title>
+    <link rel="shortcut icon" href="images/icono.ico">
+</head>
+<body>
+    <header>
+        <div>
+            <a href="index.html"><img src="images/logo.jpg" alt="logo"></a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+        <nav id="menu_bar" class="">
+            <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#">Personajes</a>
+                    <ul class="submenu">
+                        <li><a href="principales.html">Principales</a></li>
+                        <li><a href="secundarios.html">Secundarios</a></li>
+                    </ul>
+                </li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="resenas.html">Reseñas</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h1>Reseñas y criticas de Cine</h1>  
+        
+
+        <article class="reseñas">
+            <div class="contenedor2">
+                <img src="images/imdb.png" width="150px">
+            </div>
+            <div class="texto"> 
+                <h2>Calificacion de IMDb</h2>
+                <p>Puntuacion 8.3/10</p>
+                <br> 
+                <p>El vuelo 815 se estrella en una isla desierta, exuberante y misteriosa. Enseguida, los sobrevivientes deben encontrar la forma de adaptarse al nuevo ambiente, a la vez que descubren un extraño sistema de seguridad, refugios subterráneos y un violento grupo de supervivientes....</p>
+            </div> 
+        </article>
+
+
+
+        <article class="reseñas">
+            <div class="contenedor2">
+                <img src="images/sensacine.png" width="150px">
+            </div>
+            <div class="texto">
+                <h2>Calificacion de SENSACINE</h2>
+                <p>Puntuacion 4.4/5</p>
+                <br> 
+                <p>INFO: 'Lost' en su versión original, 'Perdidos' en su versión española, es una serie creada por J. J. Abrams ('Person of Interest', 'Alcatraz', 'Alias', 'Felicity'), Jeffrey Lieber ('Miami Medical'), y Damon Lindelof ('Erase una vez', 'Cowboys & Aliens', 'Star Trek') y desarrollada en su mayoría por este último junto a Carlton Cuse ('Las aventuras de Brisco County Jr.', 'Nash Bridges')</p>
+                </div>
+        </article>
+
+
+
+        <article class="reseñas">
+            <div class="contenedor2">
+                <img src="images/userm.png" width="150px">
+            </div>
+            <div class="texto">
+                 <h2>Calificacion de USUARIOS</h2>
+                <p>Fiorella Lirusso - Puntuacion 3/5</p>
+                <br> 
+                <p>Es complicado calificar una serie, mas cuando venia excelente y termina con un final tan mediocre. No le puedo poner mala ya que las 5 primeras temporadas las disfrute mucho, pero tampoco le puedo poner excelente ya que la ultima temporada deja mucho que desear (por lo menos para mi gusto personal), asi que van 3 puntos.</p>
+                </div>
+        </article>
+    </section>
+
+    <footer>
+        <a href="https://twitter.com/lostofficial?lang=es" 
+            target="_blank"><i 
+            class="fa-brands fa-twitter" 
+            style="color: #FFFFFF;"></i></a> 
+
+        <a href="https://youtu.be/jnLIIKsSg3w" 
+            target="_blank"><i 
+            class="fa-brands fa-youtube" 
+            style="color: #FFFFFF;"></i></a>
+
+        <a href="https://www.facebook.com/LOST?mibextid=ZbWKwL"     target="_blank"><i 
+             class="fa-brands fa-facebook" 
+             style="color: #FFFFFF;"></i></a>
+
+        <a href="https://instagram.com/lost_series?igshid=NGVhN2U2NjQ0Yg==" 
+            target="_blank"><i 
+            class="fa-brands fa-instagram" 
+            style="color: #FFFFFF;"></i></a>
+    </footer>
+
+    <script type="text/javascript">
+        function myFunction() {
+          var x = document.getElementById("menu_bar");
+          if (x.className === "") {
+            x.className += " responsive";
+          } else {
+            x.className = "";
+          }
+        }
+    </script>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+</body>
+</html>

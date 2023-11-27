@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/797299418b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+    <title>LOST</title>
+    <link rel="shortcut icon" href="images/icono.ico">
+</head>
+<body>
+    <header>
+        <div>
+            <a href="index.html"><img src="images/logo.jpg" alt="logo"></a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+        <nav id="menu_bar" class="">
+            <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#">Personajes</a>
+                    <ul class="submenu">
+                        <li><a href="principales.html">Principales</a></li>
+                        <li><a href="secundarios.html">Secundarios</a></li>
+                    </ul>
+                </li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="resenas.html">Reseñas</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section> 
+            <h1>Galería de Temporadas</h1>  
+        <article class="galeria">
+            <div>
+                <a href="images/temp1.jpg" data-lightbox="galeria" data-title="Temporada 1"><img src="images/temp1.jpg" width="150px"></a>
+                <a href="images/temp2.jpg" data-lightbox="galeria" data-title="Temporada 2"><img src="images/temp2.jpg" width="150px"></a>
+                <a href="images/temp3.jpg" data-lightbox="galeria" data-title="Temporada 3"><img src="images/temp3.jpg" width="150px"></a>
+                <a href="images/temp4.jpg" data-lightbox="galeria" data-title="Temporada 4"><img src="images/temp4.jpg" width="150px"></a>
+                <a href="images/temp5.jpg" data-lightbox="galeria" data-title="Temporada 5"><img src="images/temp5.jpg" width="150px"></a>
+                <a href="images/temp6.jpg" data-lightbox="galeria" data-title="Temporada 6"><img src="images/temp6.jpg" width="150px"></a>   
+            </div>
+            
+        </article>
+    </section>
+
+    <footer>
+        <a href="https://twitter.com/lostofficial?lang=es" 
+            target="_blank"><i 
+            class="fa-brands fa-twitter" 
+            style="color: #FFFFFF;"></i></a> 
+
+        <a href="https://youtu.be/jnLIIKsSg3w" 
+            target="_blank"><i 
+            class="fa-brands fa-youtube" 
+            style="color: #FFFFFF;"></i></a>
+
+        <a href="https://www.facebook.com/LOST?mibextid=ZbWKwL"     target="_blank"><i 
+             class="fa-brands fa-facebook" 
+             style="color: #FFFFFF;"></i></a>
+
+        <a href="https://instagram.com/lost_series?igshid=NGVhN2U2NjQ0Yg==" 
+            target="_blank"><i 
+            class="fa-brands fa-instagram" 
+            style="color: #FFFFFF;"></i></a>
+    </footer>
+    
+    <script type="text/javascript">
+        function myFunction() {
+          var x = document.getElementById("menu_bar");
+          if (x.className === "") {
+            x.className += " responsive";
+          } else {
+            x.className = "";
+          }
+        }
+    </script>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+</body>
+</body>
+</html>
